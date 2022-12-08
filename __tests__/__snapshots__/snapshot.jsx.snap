@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<DocumentFragment>
+  <div
+    class="md-container container"
+  >
+    <div
+      class="container"
+    >
+      <h1>
+         Welcome to Favicon Finder! 
+      </h1>
+      <h5>
+        Designed to enable you to quickly find all the favicons!
+      </h5>
+      <br />
+      <button
+        class="btn btn-primary"
+        type="button"
+      >
+        Upload CSV
+      </button>
+        
+      <button
+        class="btn btn-primary"
+        disabled=""
+        type="button"
+      >
+        Get FavIcons
+      </button>
+        
+      <button
+        class="btn btn-primary"
+        disabled=""
+        type="button"
+      >
+        Export CSV
+      </button>
+        
+      <button
+        class="btn btn-primary"
+        disabled=""
+        type="button"
+      >
+        Clear
+      </button>
+      <br />
+      <br />
+      <h4>
+         Please upload a CSV. 
+      </h4>
+    </div>
+  </div>
+</DocumentFragment>
+`;
