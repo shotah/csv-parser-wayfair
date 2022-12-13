@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "yarn && next build",
-    "start": "next start -p ${PORT:=3001}",
+    "start": "next start -p 3001",
     "clean:powershell": "powershell Remove-Item './node_modules', './package-lock.json', './yarn.lock' -Force -Recurse -ea 0",
     "clean:bash": "rm ./node_modules -fr && rm ./package-lock.json -fr && rm ./yarn.lock -fr",
     "test": "jest",
@@ -19,7 +19,7 @@
     "docker:clean": "docker rm -f nextjs-docker"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^12.1.0",
     "@babel/core": "^7.0.0",
     "@react-aria/ssr": "^3.1.0",
     "axios": "^0.24.0",

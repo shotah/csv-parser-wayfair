@@ -1,8 +1,4 @@
-# OUTDATED
-
-** Needs older version of nextjs **
-
-## Favicon Finder
+# Favicon Finder
 
 #### Project
 
